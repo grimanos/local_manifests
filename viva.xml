@@ -3,7 +3,7 @@
     <remote name="6781-dev" fetch="https://github.com/xiaomi-mt6781-devs"
         revision="lineage-20" />
     <remote name="lineageos" fetch="https://github.com/LineageOS"
-	revision="lineage-20" />
+	revision="lineage-21" />
     <remote name="nashc-dev" fetch="https://github.com/nashc-dev"
 	revision="lineage-20" />
 
@@ -14,10 +14,10 @@
         name="android_device_xiaomi_viva-kernel"
         remote="6781-dev" />
 
-    <remove-project name="android_device_mediatek_sepolicy_vndr" />
+   
     <project
         path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr"
-        remote="6781-dev" />
+        remote="lineageos" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi" name="android_hardware_xiaomi"
